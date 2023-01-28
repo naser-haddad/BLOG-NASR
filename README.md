@@ -1,4 +1,4 @@
-# BNASR ~ My Blog Nasr
+# BNASR
 
 # Light Theme
 
