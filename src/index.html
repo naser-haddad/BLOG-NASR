@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nasr's Blog </title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!--
+      custon TailwindCss CDN links
+  -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="light-theme ">
+
+  <header class="">
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#" class="group block flex-shrink-0  btn-secondary:hover">
+          <div class="flex items-center">
+            <div>
+              <img src="" />
+              <img class="inline-block h-9 w-9 rounded-full" src="./assets/images/me.jpg" alt="Logo">
+            </div>
+            <div class="ml-3 ">
+              <h5 class="h4 text-orange-500/100">Nasr Haddad</h5>
+              <h5 class="h4">Full Stack Developer</h5>
+            </div>
+          </div>
+        </a>
+
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#bottom" class="nav-link">My Projects</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#bottom" class="nav-link">My Projects</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">TOPICS</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Cyborg-Game</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Nasr&nbsp;Haddad</b>.
+            <br>Web Developer
+          </h1>
+
+          <p class="h3">
+            Junior Full Stack Web Developer
+          </p>
+
+          <div class="btn-group">
+            <a href="#bottom" class="btn btn-primary">About Me</a>
+          </div>
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="Nasr Haddad" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main #bottom">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/Lava.png" alt="Lava Website"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Template</button>
+
+                <h3>
+                  <a target="_blank" href="#" class="h3">
+                    Lava Landing Page Template
+
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Lava HTML landing page has a beautiful orange pink color theme. Main menu supports drop down sub menu items. This layout can be extended further according to your website needs. Lava is clean and professional looking website template for your business. This free CSS layout is based on Bootstrap 4.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Jan 17, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/game.png" alt="Cyborg-Game" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Template</button>
+
+                <h3><a target="_blank" href="https://github.com/naser-haddad/Cyborg-Game" class="h3">Cyborg Gaming Template
+                </a></h3>
+
+                <p class="blog-text">
+                  Cyborg Gaming is a darkgray color free CSS template based on Bootstrap v5.2.0 website layout. There are 5 different HTML pages in this template. They are game listing section, game detail page, live stream, and profile pages. Featured Games has an own carousel items. This is a darkgray theme layout with pinky highlights. Header included a simple search box in the middle.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Dec 10, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/CALCULATOR.png" alt="Template" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Template</button>
+
+                <h3><a target="_blank" href="" class="h3">Calculator</a></h3>
+
+                <p class="blog-text">
+                  Calculator app designed by javascript, html, css
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Nov 28, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/xo-game.png" alt="Template" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Template</button>
+
+                <h3><a target="_blank" href="" class="h3">XO-Game</a></h3>
+
+                <p class="blog-text">
+                  It is a famous game designed by JavaScript, CSS and HTML. It is a great and entertaining game. ❤️
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a target="_blank" href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Nov 20, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/E-Commerce.png"
+                  alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">E-Commerce</button>
+
+                <h3><a target="_blank" href="" class="h3">E-Commerce</a></h3>
+
+                <p class="blog-text">
+                  Adaptive Loading: Do not just respond based on screen size, adapt based on actual device hardware.
+                  Any user can have a slow experience. In a world with widely varying device capabilities, a "one-size"
+                  fits all
+                  experience may not always work. Sites that delight users on high-end devices can be unusable on
+                  low-end ones,
+                  particularly on median mobile and desktop hardware and in emerging markets.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Nov 10, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-6.png"
+                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Accessibility</button>
+
+                <h3><a target="_blank" href="" class="h3">Don't Develop Just for Yourself - A Developer's Checklist to Accessibility</a>
+                </h3>
+
+                <p class="blog-text">
+                  We, as developers, tend to develop sites unconsciously for people like ourselves. If we don't actively
+                  pay attention,
+                  the sites are often accessible only for certain types of people: Sighted mouse-users, who have good
+                  fine motor skills
+                  and are good at using computers.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Oct 25, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-7.png"
+                  alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3><a target="_blank" href="" class="h3">Building a Restful CRUD API with Node JS, Express, and MongoDB</a></h3>
+
+                <p class="blog-text">
+                  Application Programming Interface is the abbreviation for API. An API is a software interface that
+                  enables two apps to
+                  communicate with one another. In other words, an API is a messenger that sends your request to the
+                  provider and then
+                  returns the response to you.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">Oct 15, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-8.png" alt="Monitoring Performance with the PageSpeed Insights API"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Cyborg-Game</button>
+
+                <h3><a target="_blank" href="" class="h3">Monitoring Performance with the PageSpeed Insights API</a></h3>
+
+                <p class="blog-text">
+                  The PageSpeed Insights API provides free access to performance monitoring for web pages and returns
+                  data with
+                  suggestions for how to improve. The V5 API includes lab data from Lighthouse and real-world data from
+                  the Chrome User
+                  Experience Report (CrUX).
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/me.jpg" alt="Nasr Haddad" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nasr Haddad</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-03">Oct 3, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2 flex items-center text-center justify-center">TOPICS<img
+                src="https://img.icons8.com/fluency/48/null/hashtag-large.png" /></h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Accessibility</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Cyborg-Game</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2 flex items-center text-center justify-center">
+              SKILLS
+              <img src="https://img.icons8.com/emoji/48/null/man-lifting-weights.png" />
+            </h2>
+
+            <div class="wrapper">
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">#HTML</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-cyan-200 dark:text-cyan-900">#CSS</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">#JavaScript</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">#Tailwind
+                Css</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">#Bootstrap
+                Css</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-cyan-200 dark:text-cyan-900">#eXtension(JSX)</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#ReactJs</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">#ReduxJs</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">#NodeJs</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">#Problem
+                Solving</span>
+              <span
+                class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">#Software
+                Development</span>
+              <span
+                class="bg-sky-200 text-sky-900 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-900">#Model-View-Controller(MVC)</span>
+              <span
+                class="bg-purple-200 text-purple-900 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#REST
+                APIs</span>
+              <span
+                class="bg-cyan-200 text-cyan-900 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">#JSON</span>
+              <span
+                class="bg-teal-900 text-teal-900 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-teal-200 dark:text-teal-900">#Object-Oriented
+                Programming(OOP)</span>
+              <span
+                class="bg-red-200 text-red-900 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">#MySQL</span>
+            </div>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2 flex items-center text-center justify-center">
+              ABOUT ME
+              <img src="https://img.icons8.com/fluency/48/null/hard-working.png" />
+            </h2>
+
+            <div class="wrapper">
+              <h3 class="h2">
+                I'm Nasr Haddad, 20 years old and have a lot pasion for learning web development and building impactful
+                solutions. Currently, I'm looking for a jonior role as a full-stack web developer in any domain.
+                My current skills are centered around MERN stack including: JavaScript, NodeJs, React & Redux, DB (SQL,
+                NoSQL), TailwindCSS, and many others. I'm learning on my own with help from senior engineers in the
+                field guiding and helping me.
+              </h3>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="contact">
+
+              <h2 class="h2 flex items-center text-center justify-center">LET'S TALK <img class="h-14"
+                  src="https://img.icons8.com/3d-fluency/94/null/chat.png" /></h2>
+
+              <div class="wrapper">
+
+                <p>
+                  Do you want to learn more about how I can help your company overcome problems? Let us have a
+                  conversation.
+                </p>
+
+                <ul class="social-link">
+
+                  <li>
+                    <a target="_blank" href="https://github.com/naser-haddad" class="icon-box discord">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/naser-haddad20/" class="icon-box twitter">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100040889972725"
+                      class="icon-box facebook">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+
+        <p class="footer-text">
+          Learn about Web accessibility, Cyborg-Game, and Database management.
+
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#">BNASR </a>
+    </p>
+
+  </footer>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <!--
+    - ionicon link
+  -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
